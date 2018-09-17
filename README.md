@@ -58,3 +58,7 @@ Genre la séance avec motif d'absence pas reliée à un user ? (A ce moment là,
 * Ensuite il me faillait un server de dev et je voulais celui de symfony parce que. `composer req server --dev` a fait le taf, suivi d'un petit `php bin/console server:run pour lancer le bouzin. ensuite go sur http://127.0.0.1:8000/api et wahou.
 
 Bisou, bone nuit.
+
+@TODO
+- [ ] Gérer la sécurité niveau User
+- [x] Dodo!
