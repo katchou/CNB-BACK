@@ -23,15 +23,16 @@ Une version >= 7.1 semble indiquée, pour ce que j'en sais. Perso j'ai mis une 7
 `composer creater-project symfony/skeleton CNB-BACK` même si cnb-api me sied plus
 `cd CNB-BACK` pour se placer dans le bon répertoire
 `composer req api orm` req est un raccourci pour `require` donc c'est plus rapide à taper vu que c'est un raccourci
-`composer req maker --dev` ici `--dev` c'est une option pour dir equ'on veut la dépendance que en dev. Fou, non ?
+`composer req maker --dev` ici `--dev` c'est une option pour dire qu'on veut la dépendance que en dev. Fou, non ?
 
 * Ensuite j'enchaine avec une série de 
 ```
 php bin/console make:entity
 ```
-    Un truc magique pour créer du code chiant en mode cli interactif. Je me suis basé sur le script sql de création de base.
 
-    Fun fact : nique les FK, tu peux toujours ajouter une relation entre deux classe à la création de la deuxième, quelque soit la relation. Nique les FK. Bon par contre tu peux pas l'ajouter irect sur la première si la deuxième existe pas. Un appel subséquent à `make:entity`en lui passant un nom d'entity existant fait un update. Oui m'dame, c'est un outil profesionnel.
+Un truc magique pour créer du code chiant en mode cli interactif. Je me suis basé sur le script sql de création de base.
+
+Fun fact : nique les FK, tu peux toujours ajouter une relation entre deux classe à la création de la deuxième, quelque soit la relation. Nique les FK. Bon par contre tu peux pas l'ajouter irect sur la première si la deuxième existe pas. Un appel subséquent à `make:entity`en lui passant un nom d'entity existant fait un update. Oui m'dame, c'est un outil profesionnel.
 
 * Ensuite une série d'alerte a été levée par mes soins consciencieux :
 
