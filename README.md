@@ -32,7 +32,7 @@ php bin/console make:entity
 
 Un truc magique pour créer du code chiant en mode cli interactif. Je me suis basé sur le script sql de création de base.
 
-Fun fact : nique les FK, tu peux toujours ajouter une relation entre deux classe à la création de la deuxième, quelque soit la relation. Nique les FK. Bon par contre tu peux pas l'ajouter irect sur la première si la deuxième existe pas. Un appel subséquent à `make:entity`en lui passant un nom d'entity existant fait un update. Oui m'dame, c'est un outil profesionnel.
+Fun fact : nique les FK, tu peux toujours ajouter une relation entre deux classes à la création de la deuxième, quelque soit la relation. Nique les FK. Bon par contre tu peux pas l'ajouter direct sur la première si la deuxième existe pas. Un appel subséquent à `make:entity`en lui passant un nom d'entity existant fait un update. Oui m'dame, c'est un outil profesionnel.
 
 * Ensuite une série d'alerte a été levée par mes soins consciencieux :
 
