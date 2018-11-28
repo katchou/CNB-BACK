@@ -49,9 +49,9 @@ Genre la séance avec motif d'absence pas reliée à un user ? (A ce moment là,
 
 **/!\ WARRING /!\\** Les phones ça va pas du tout du tout du tout. Pas. On sent la fin de script.
 
-* Pour les dateDeModification et les dateDeCreation sur le User (oui, bon, j'ai gardé User pou l'utilisateur, on a tous droit à nos vices cachés) j'ai utilisé une extension Doctrine : `composer req gedmo/doctrine-extensions`
+* Pour les dateDeModification et les dateDeCreation sur le User (oui, bon, j'ai gardé User pour l'utilisateur, on a tous droit à nos vices cachés) j'ai utilisé une extension Doctrine : `composer req gedmo/doctrine-extensions`
 
-    J'ai aussi ajouté un fichier doctrin_extensions.yaml dans config/package où j'ai mis de la conf mais si je super pas optimiste sur ce coup. Faut ptêtre la mettre dans doctrine.yaml sous doctrine:orm:mappings mais même ça j'ai un gros doute donc voili voilà toussa tavu.
+    J'ai aussi ajouté un fichier doctrine_extensions.yaml dans config/package où j'ai mis de la conf mais si je super pas optimiste sur ce coup. Faut ptêtre la mettre dans doctrine.yaml sous doctrine:orm:mappings mais même ça j'ai un gros doute donc voili voilà toussa tavu.
 
 * La base (sqlite, penser à l'activer dans le php.ini) est (donc) du sqlite. C'est configuré dans le fichier .env à la racine du projet.
 
